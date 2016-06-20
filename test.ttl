@@ -1,0 +1,19 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdfa: <http://www.w3.org/ns/rdfa#>.
+@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix r2h: <http://rdf2h.github.io/2015/rdf2h#>.
+@prefix s: <http://schema.org/>.
+@prefix lodide: <http://ontology.lodide.io/>.
+@prefix dc: <http://dublincore.org/2012/06/14/dcelements#>.
+@prefix schema: <http://schema.org/>.
+
+<> a lodide:Exercise;
+    lodide:intro "<h2>Access FOAF Profile</h2>\n            <p>In his exercise you will manipulate and render RDF data in your browser.\nYou will access the FOAF profile of Tim Berners-Lee transform it to use properties from schema.org and render it.</p>";
+    lodide:finalWords "<ul>\n                    <li>When you're finished press the \"Run my code\"-button.\n                    The results will show up below the button.\n                    If you did everything right you should see at least Tim \n                    Berner's Lee first name.</li>\n                </ul>";
+    lodide:dataSource _:b16.
+_:b16 lodide:taskDescription "<ul>\n                    <li>As data source specify Tim Berner-Lee's personal profile \n                        document available at <code>https://www.w3.org/People/Berners-Lee/card.rdf</code></li>\n                </ul>";
+    lodide:taskSolutionResource <https://www.w3.org/People/Berners-Lee/card.rdf>;
+    lodide:taskSolutionResourceCurrent "this is too hard".
